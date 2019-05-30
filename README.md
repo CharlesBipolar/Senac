@@ -86,6 +86,7 @@ else
 ### exemplo if
 
 '''dart
+
 string curso = "programador android";
 
 if(curso == "programador android";)
@@ -96,7 +97,10 @@ else
 {	
 	print("vacilão, aposto que você faz ADM.");
 }
+
 '''
+
+
 '''dart
 
 ### exemplo de media
@@ -122,6 +126,7 @@ void main() {
 '''
  
 '''dart
+
 void main() {
 	
   String nome, sobrenome, email, senha, cpf,	data_nasc, endereco, sexo, celular, curso, nome_social;
