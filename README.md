@@ -55,6 +55,46 @@ void(){
 
 o método toStringAsFixed() foi usado para formatar as casas (2) decimais de variável(renda_pessoa)double,
 
+** condição ligica IF
+o if serve para determinar se um bloco de instruções **deve** ou **não** ser executado pode se dizer que sempre que for necessario **testar** algum valor usaremos o *if*
+
+## Operadores lógicos
+
+- == *igauldade*
+- != *diferente*
+- >= *maior ou igual*
+- <= *menor ou igual*
+- > *maior*
+- < *menor*
+
+### sintaxe
+
+'''dart
+if(teste_logico)
+{
+	//faz isso se o teste for verdadeiro
+}
+else
+{
+	//faz isso se o teste for falso
+}
+'''
+
+### exemplo if
+
+'''dart
+string curso = "programador android";
+
+if(curso == "programador android";)
+{
+	print("Parabéns, você faz ótimas escolhas.");
+}
+else
+{	
+	print("vacilão, aposto que você faz ADM.");
+}
+'''
+ 
 '''dart
 void main() {
 	
