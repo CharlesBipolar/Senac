@@ -60,10 +60,10 @@ o if serve para determinar se um bloco de instruções **deve** ou **não** ser 
 
 ## Operadores lógicos
 
-- == *igauldade*
-- != *diferente*
-- >= *maior ou igual*
-- <= *menor ou igual*
+- = = *igauldade*
+- ! = *diferente*
+- > = *maior ou igual*
+- < = *menor ou igual*
 - > *maior*
 - < *menor*
 
