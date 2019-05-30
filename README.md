@@ -51,6 +51,8 @@ void(){
   
 ## aula 2
 
+**\n (quebra de linha)
+
 **$(renda_pessoa.toStringAsFixed(2)
 
 o método toStringAsFixed() foi usado para formatar as casas (2) decimais de variável(renda_pessoa)double,
