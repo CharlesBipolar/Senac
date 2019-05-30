@@ -49,3 +49,69 @@ void(){
   ```
 
   
+## aula 2
+
+**$(renda_pessoa.toStringAsFixed(2)
+
+o método toStringAsFixed() foi usado para formatar as casas (2) decimais de variável(renda_pessoa)double,
+
+'''dart
+void main() {
+	
+  String nome, sobrenome, email, senha, cpf,	data_nasc, endereco, sexo, celular, curso, nome_social;
+
+	int ano_nasc, idade, qtd_moradores;
+  
+	double renda_familiar, renda_pessoa;
+  
+  
+  
+  	nome = "Charles";
+    sobrenome = "o gato bipolar";
+  	email = "sadgamerc4d@gmail.com";
+    senha = "meu_cachorro_ta_me_comendo";
+    cpf = "666666666/66";
+    data_nasc = "15/06/2003";
+    endereco = "setor:666 rua:lagrimas casa:69";
+    sexo = "Homen";
+    celular = "19991415325";
+    curso = "Programador de dispositivos moveis";
+    nome_social = "Charles_batutinha";
+    ano_nasc = 2003;
+    idade = 16;
+    qtd_moradores = 5;
+    renda_familiar = 60000;
+    renda_pessoa = 1200;
+      
+  print("■■■■■■■■■■■■■■■■■■■■■■■■■■");
+  print("confimação de Cadastro");
+  print("■■■■■■■■■■■■■■■■■■■■■■■■■■");
+  print("\nboa tarde $nome $sobrenome");
+  print("\n■■■■■■■■■■■■■■■■■■■■■■■■■■");
+  
+  if (nome_social != "")
+  {
+  	print("\nnome social: $nome_social");
+  
+  }
+  print("email: $email");
+  print("cpf: $cpf");
+  print("data de nascimento: $data_nasc");
+  print("endereço: $endereco");
+  print("sexo: $sexo");
+  print("celular: $celular");
+  print("Ano de nascimento: $ano_nasc");
+  print("idade: $idade");
+  print("\n■■■■■■■■■■■■■■■■■■■■■■■■■■");
+  print("informações Senac");
+  print("\n■■■■■■■■■■■■■■■■■■■■■■■■■■");
+  print("\ncurso: $curso");
+  print("quantidade de moradores: $qtd_moradores");
+  print("renda por pessoa: R\$ ${renda_pessoa.toStringAsFixed(2)}");
+  
+  
+ 	
+}
+
+
+'''
