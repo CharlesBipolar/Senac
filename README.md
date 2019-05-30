@@ -1,20 +1,20 @@
-#senac
+# senac
 
 Curso Desenvolvimento de Aplicativos Móveis
 
 Usando **DART** e **FLUTTER**
 
- ##Aula1 - Váriaveis
+ ## Aula1 - Váriaveis
 
 Espaço reservado em memória para armazenar um valor temporariamente
 
-###Tipos de variaveis
+### Tipos de variaveis
 
 - **String** - textos
 - **int** - números inteiros
 - **double** - números decimais
 
- ###Exemplo1 - Tipos de Variáveis
+ ### Exemplo1 - Tipos de Variáveis
 ```
 void(){
   String nome = "Brendow";
@@ -23,7 +23,7 @@ void(){
   }
   ```
   
-  ###Exemplo2 - cálculo simples
+  ### Exemplo2 - cálculo simples
   ```
   void main() {
   
@@ -50,6 +50,7 @@ void(){
 
   
 ## aula 2
+:+1:
 
 **\n (quebra de linha)
 
