@@ -97,6 +97,29 @@ else
 	print("vacilão, aposto que você faz ADM.");
 }
 '''
+'''dart
+
+### exemplo de media
+
+void main() {
+	
+  double nota1, nota2, media;
+  
+	nota1 = 10;
+  nota2 = 10;
+  media = (nota1 + nota2) / 2;
+  
+   if(media >= 4)
+     
+   {
+     print("aprovadisimo $media parabeins"); 
+   }
+  else
+  {
+    print("reprovado $media por causa das suas notas $nota1 e $nota2");
+  }
+}
+'''
  
 '''dart
 void main() {
