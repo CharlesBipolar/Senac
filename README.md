@@ -203,6 +203,22 @@ print(math.pi); //exibe o valor de pi
 print(math.pow(2,7)); //exibe o resultado de 2 elevado a 7.
 ''' 
 
+### exemplo de if (longo)
+
+if(teste)
+{
+   //se for verdade
+}
+else if (teste
+{
+ //faz se for falso
+}
+else
+{
+  // se não for nenhuma delas
+}
+
+
 ### exemplo usando  IF (Login e Equação de 2ªgrau)
 
 '''dart
