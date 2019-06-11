@@ -383,3 +383,12 @@ seguir os passos de instalação, que constituem basicamente de:
  - Rodar o comando "flutter doctor" no promp de comando para certificar que esta tudo ok.
  
 **Criação do primeiro App
+
+Regra nº1 **Nunca feche a máquina virtual**
+
+1 - Abrir o Android Studio
+2 - Abrir Máquina Virtual(emulador do Android)
+3 - Apertar no botão "Start new Flutter Project" (iniciar novo projeto do flutter)
+4 - Escolher aplicativo Flutter
+5 - Colocar o nome do projeto, descrição, e o caminho do SDK.
+6 - Nome da empresa (não mudou nada)
