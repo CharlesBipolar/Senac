@@ -72,7 +72,7 @@ o if serve para determinar se um bloco de instruções **deve** ou **não** ser 
 
 ### sintaxe
 
-'''dart
+```dart
 if(teste_logico)
 {
 	//faz isso se o teste for verdadeiro
@@ -81,12 +81,11 @@ else
 {
 	//faz isso se o teste for falso
 }
-'''
+```
 
 ### exemplo if
 
-'''dart
-
+```dart
 string curso = "programador android";
 
 if(curso == "programador android";)
@@ -98,13 +97,14 @@ else
 	print("vacilão, aposto que você faz ADM.");
 }
 
-'''
+```
 
 
-'''dart
+
 
 ### exemplo de media
 
+```dart
 void main() {
 	
   double nota1, nota2, media;
@@ -123,9 +123,9 @@ void main() {
     print("reprovado $media por causa das suas notas $nota1 e $nota2");
   }
 }
-'''
+```
  
-'''dart
+```dart
 
 void main() {
 	
@@ -185,7 +185,7 @@ void main() {
 }
 
 
-'''
+```
 
 ## Aula 3 - logica com DART
 
@@ -197,11 +197,11 @@ foi importada a *biblioteca* **dart:math** para podermos usar funções  matemat
 
 ### Exemplos usando math
 
-'''dart
+```dart
 print(math.sqrt(9)); //exibe a raiz de 9
 print(math.pi); //exibe o valor de pi
 print(math.pow(2,7)); //exibe o resultado de 2 elevado a 7.
-''' 
+```
 
 ### exemplo de if (longo)
 
@@ -221,7 +221,7 @@ else
 
 ### exemplo usando  IF (Login e Equação de 2ªgrau)
 
-'''dart
+```dart
 
 import 'dart:math' as math;
 void main() {
@@ -240,7 +240,7 @@ void main() {
  
  b = -10;
  
- c = 25;																																											
+ c = 25;
  
  delta = (b * b) - 4 * a * c;
  print("O DELTA = $delta");
@@ -272,7 +272,7 @@ void main() {
  }
 }
 
-'''
+```
 
 ## Aula 4
 
@@ -288,6 +288,7 @@ void main() {
 
 ## Exemplo Operadores lógicos
 
+```dart
 void main(){
 	
   bool var_a, var_b;
@@ -309,11 +310,11 @@ void main(){
   }
   print(numero);
 }
+```
 
 ## Aula #5
 
 ### Funções
-'''dart
 
   como criar uma função :D
   
@@ -324,7 +325,8 @@ void main(){
   
   IMPORTANTE:so criar a função  não serve para NADA.
   A gente  tem que chamar essa função no main.
-  '''
+  
+  ```dart
   
   void main(){
 	
@@ -370,6 +372,7 @@ void calcular(double newNumber1, double newNumber2, String operation){
   
   print("The result is: $answear "); 
 }
+ ```
  
  ## Aula Flutter
 
