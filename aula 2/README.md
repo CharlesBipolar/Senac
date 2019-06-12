@@ -4,16 +4,17 @@ Método principal(main) e método necessário para "inflar" o App(runApp), mostr
 Foi usado também usado o import no pacote/biblioteca *material.dart*, que é responsável por nos fornecer os recursos, atributos de cada
 widget(cor de um objeto, tamanho, alinhamento, etc).
 import 'package:flutter/material.dart';
-
+```dart
 void main() {
   runApp();
   }
+  ```
   
 ## Trocar fundo de tela
   
   Foi usado um "container"(Center) e nele foi definida a cor de fundo.
   
-  
+ ```dart 
   import 'package:flutter/material.dart';
 void main() {
   runApp(
@@ -22,10 +23,11 @@ void main() {
     ), //Material
   );
  }
+ ```
  
 ## Colocando um texto no centro da tela
 import 'package:flutter/material.dart';
-
+```dart
 void main() {
   runApp(new Material(
       color: Colors.lime,
@@ -38,7 +40,7 @@ void main() {
      ), //Material
    );
   }
-  '''
+```
   
   ## Formatando o texto:
   - tamanho do texto(font-size),
@@ -51,7 +53,7 @@ void main() {
   Detalhe importante que esas propriedades são do widget Text, por isso estão dentro dos parênteses.        
           
   
-dart
+```dart
   import 'package:flutter/material.dart';
 
 void main() {
@@ -70,3 +72,4 @@ void main() {
    ); //RunApp
 }
 ```
+
