@@ -77,7 +77,7 @@ void main() {
 
 codigo de como fazer um menu basico
 
-´´´dart
+```dart
 import 'package:flutter/material.dart';
 void main() {
   runApp(
@@ -116,4 +116,4 @@ void main() {
     ),
   );
 }
-```
+´´´
