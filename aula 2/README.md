@@ -73,3 +73,47 @@ void main() {
 }
 ```
 
+#aula 2 - menu
+
+codigo de como fazer um menu basico
+
+´´´dart
+import 'package:flutter/material.dart';
+void main() {
+  runApp(
+    new MaterialApp(
+      home: Scaffold(
+        drawer: Drawer(
+          child: ListView(
+            children: <Widget>[
+              UserAccountsDrawerHeader(
+                accountName: Text("Charles"),
+                accountEmail: Text("sadgamerc4d@gmail.com"),
+                currentAccountPicture:
+                    Image.network('https://scontent.faep13-1.fna.fbcdn.net/v/t1.0-9/58574630_371697263687315_2910261327144419328_n.jpg?_nc_cat=106&_nc_oc=AQm8-ZumQdGDufEPwDwNB61_meYjg5s2_1YhGmh71HdQmVwN0xHjhuoX5oifYzOdD6M&_nc_ht=scontent.faep13-1.fna&oh=30fff84df1beb0f3059e409f33cf5d3e&oe=5D8A551B'),
+                decoration: BoxDecoration(
+                    color: Colors.deepPurple
+                ),
+              ),
+              ListTile(
+                title: Text ("Share"),
+                trailing: Icon(Icons.share),
+              ),
+          ListTile(
+            title: Text ("Options2"),
+          ),
+            ],
+          )
+        ),
+        appBar:  AppBar(
+          title: Text("hello boy's it's i WALUIGI!!!"),
+          centerTitle: true,
+          backgroundColor: Colors.deepPurpleAccent
+        ),
+        body: TextField(
+        ),
+      ),
+    ),
+  );
+}
+```
