@@ -26,8 +26,10 @@ void main() {
  ```
  
 ## Colocando um texto no centro da tela
-import 'package:flutter/material.dart';
+
 ```dart
+import 'package:flutter/material.dart';
+
 void main() {
   runApp(new Material(
       color: Colors.lime,
