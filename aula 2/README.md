@@ -73,9 +73,19 @@ void main() {
 }
 ```
 
-#aula 2 - menu
+# Aula 2 - menu
 
-codigo de como fazer um menu basico
+Scafford é uma classe importante em Flutter, pois cria a estrutura básica de layout do Widget Material Design.
+
+- Permite montar a estrutura básica de uma tela,
+
+adicionar itens como:
+
+- AppBar,
+- FloatingActionButton,
+- BottomNavigationBar,
+- Drawer
+- Além do próprio conteúdo da tela
 
 ```dart
 import 'package:flutter/material.dart';
