@@ -21,6 +21,7 @@ class  extends StatelessWidget {
 **Exemplo de stateful Widget** ⚡️
 
 ```dart
+
 class ClasseComEstado extends StatefulWidget {
   @override
   _ClasseComEstadoState createState() => _ClasseComEstadoState();
@@ -32,4 +33,5 @@ class _ClasseComEstadoState extends State<ClasseComEstado> {
     return Container();
   }
 }
+
 ´´´
