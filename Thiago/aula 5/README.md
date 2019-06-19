@@ -2,6 +2,8 @@
 
 <img src="https://github.com/CharlesBipolar/Senac/blob/master/Thiago/aula%205/Capturar.PNG" width="200">
 
+## Veja o Exemplo:
+
 ```dart
 import 'package:flutter/material.dart';
 
