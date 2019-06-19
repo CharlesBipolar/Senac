@@ -1,5 +1,5 @@
 ## Modelo Básico App Flutter
-!{App}(https://github.com/CharlesBipolar/Senac/blob/master/Thiago/aula%205/Capturar.PNG?raw=true)
+!{App}(https://github.com/CharlesBipolar/Senac/blob/master/Thiago/aula%205/Capturar.PNG?raw=true | width= 150)
 
 ```dart
 import 'package:flutter/material.dart';
