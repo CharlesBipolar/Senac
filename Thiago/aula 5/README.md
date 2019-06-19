@@ -1,5 +1,5 @@
 ## Modelo Básico App Flutter
-![App](https://raw.githubusercontent.com/CharlesBipolar/Senac/master/Thiago/aula%205/Capturar.PNG | width= 150)
+<img src="https://raw.githubusercontent.com/CharlesBipolar/Senac/master/Thiago/aula%205/Capturar.PNG" width="200")
 
 ```dart
 import 'package:flutter/material.dart';
