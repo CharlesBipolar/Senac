@@ -1,0 +1,7 @@
+Obs.: na hora da geração do esquema lógico, verificar os campos Compostos e Multivalorados, de acordo com o slide.
+
+1) Verificar se as cardinalidades foram convertidas corretamente (ver tabela)
+
+2) Verificar se todas as tabelas geradas têm chave primária
+
+3) Verificar se as chaves estrangeiras foram criadas corretamente
