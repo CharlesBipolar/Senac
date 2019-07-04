@@ -1,0 +1,11 @@
+CREATE TABLE aluno (
+
+    --PRIMARY KEY: e a chave primaria da tabela
+    --AUTOINCREMENT: e utilizado para somar + 1 numero automaticamente
+    --NOT NULL: e para não deichar que o campo tenha valor vazio ou nulo
+    ra INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    rg TEXT NOT NULL,
+    escolaridade TEXT NOT NULL,
+    email TEXT NOT NULL,
+    endereco TEXT NOT NULL
+);

@@ -1,0 +1,12 @@
+CREATE TABLE curso(
+    id_curso INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    es_sala INTEGER NOT NULL,
+    nome TEXT NOT NULL,
+    descricao TEXT NOT NULL,
+    carga_horaria INTEGER NOT NULL,
+    pre_requisitos TEXT,
+    total_vagas INTEGER NOT NULL,
+    --FOREIGN key:cria chave estrangera
+    --REFERENCES:aponta qual a tabela e a chave primaria que sera a referencia
+    FOREIGN KEY (es_sala) REFERENCES sala_aula(id_sala)
+);
